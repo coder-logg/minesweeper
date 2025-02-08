@@ -1,0 +1,17 @@
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 120
+
+logging:
+  level:
+    root: debug
+    org:
+      springframework:
+        session: DEBUG
+        security: DEBUG
